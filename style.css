@@ -1,0 +1,74 @@
+h1 {
+    margin: 30px;
+    color: #000000;
+}
+
+body {
+    background-color: #a1d6fa;
+    font-family: Arial;
+    text-align: center;
+}
+
+form {
+    border-radius: 10px;
+    font-size: 20px;
+    max-width: 45%;
+    background-color: #f8c8c8;
+    margin: 20px auto;
+    padding: 30px 20px;
+    box-shadow: 3px 3px 0px rgb(255, 196, 196);
+}
+
+.formtag {
+    color: black;
+    display: block;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.formtag label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formtag input,
+.formtag select,
+.formtag textarea {
+    border: 1.5px solid #ffb4b4;
+    border-radius: 7px;
+    font-family: Arial;
+    padding: 13px;
+    display: block;
+    width: 95%;
+}
+
+.formtag input[type="radio"],
+.formtag input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #ffffff;
+    border: 0px solid #c9c8f8;  
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+.choose {
+    padding: auto;
+    margin-top: 10px;
+    font-family: Arial;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+.options {
+    margin: 15px 0px 0px 10px;
+    font-size: 15px;
+}
